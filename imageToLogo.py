@@ -52,7 +52,7 @@ def pixelar_y_llenar_canvas():
 
     #Si el bloque mide 2, le sumamos 1 para que el grosor sea 3 y se solapen perfectamente
     grosor_lapiz = tamano_bloque_y + (1 if tamano_bloque_y < 5 else 1)
-    lineas_logo.append(f"setpensize [{grosor_lapiz} {grosor_lapiz}]")
+    lineas_logo.append(f"setpensize {grosor_lapiz}")
 
     print(f"\nGenerando bloques sólidos para {nueva_res}x{nueva_res}...")
 
